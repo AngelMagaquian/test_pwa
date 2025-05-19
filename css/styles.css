@@ -1,0 +1,38 @@
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+#mensajesLista {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.mensaje-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.mensaje-item:last-child {
+    border-bottom: none;
+} 
